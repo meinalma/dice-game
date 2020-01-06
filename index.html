@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+  <meta name="description" content="hjl">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!--css optimize file(lecture 37)-->
+  <title>Dice Game</title>
+</head>
+<body>
+
+  <div class="wrapper clearfix">
+      <div class="player-0-panel active">
+          <div class="player-name" id="name-0">Player 1</div>
+          <div class="player-score" id="score-0">43</div>
+          <div class="player-current-box">
+              <div class="player-current-label">Current</div>
+              <div class="player-current-score" id="current-0">11</div>
+          </div>
+      </div>
+
+      <div class="player-1-panel">
+          <div class="player-name" id="name-1">Player 2</div>
+          <div class="player-score" id="score-1">72</div>
+          <div class="player-current-box">
+              <div class="player-current-label">Current</div>
+              <div class="player-current-score" id="current-1">0</div>
+          </div>
+      </div>
+
+      <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+      <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+      <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+      <img alt="Dice" class="dice">
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <script src="sweetalert2.all.min.js"></script>
+  <!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+<!--dices
+1: https://miro.medium.com/max/512/1*5i3bBsz_bMcGQ-UgDMCzQA.png
+2: https://miro.medium.com/max/512/1*dqZhjZbsbEBDXzKQPAagXw.png
+3: https://miro.medium.com/max/512/1*DrPdeWaJON0XbtmiEZc3jw.png
+4: https://miro.medium.com/max/512/1*5w7bpE0KdwXc21zUQoOtOw.png
+5: https://miro.medium.com/max/256/1*UYR8l1h7AI4MNtJWAugyjg.png
+6: https://miro.medium.com/max/256/1*15_KIo9vPHULoA98NYT9jQ.png
+-->
